@@ -8,24 +8,81 @@
 
 /* Begin PBXBuildFile section */
 		60576777206249F400B881F0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 60576776206249F400B881F0 /* AppDelegate.m */; };
-		6057677A206249F400B881F0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 60576779206249F400B881F0 /* ViewController.m */; };
-		6057677D206249F400B881F0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6057677B206249F400B881F0 /* Main.storyboard */; };
 		6057677F206249F400B881F0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6057677E206249F400B881F0 /* Assets.xcassets */; };
 		60576782206249F400B881F0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60576780206249F400B881F0 /* LaunchScreen.storyboard */; };
 		60576785206249F400B881F0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 60576784206249F400B881F0 /* main.m */; };
+		605767B920624A5100B881F0 /* Chameleon_.m in Sources */ = {isa = PBXBuildFile; fileRef = 6057678F20624A5100B881F0 /* Chameleon_.m */; };
+		605767BA20624A5100B881F0 /* ChameleonConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 6057679120624A5100B881F0 /* ChameleonConstants.m */; };
+		605767BB20624A5100B881F0 /* NSArray+Chameleon.m in Sources */ = {isa = PBXBuildFile; fileRef = 6057679520624A5100B881F0 /* NSArray+Chameleon.m */; };
+		605767BC20624A5100B881F0 /* UIAppearance+Swift.m in Sources */ = {isa = PBXBuildFile; fileRef = 6057679720624A5100B881F0 /* UIAppearance+Swift.m */; };
+		605767BD20624A5100B881F0 /* UIButton+Chameleon.m in Sources */ = {isa = PBXBuildFile; fileRef = 6057679920624A5100B881F0 /* UIButton+Chameleon.m */; };
+		605767BE20624A5100B881F0 /* UIColor+Chameleon.m in Sources */ = {isa = PBXBuildFile; fileRef = 6057679B20624A5100B881F0 /* UIColor+Chameleon.m */; };
+		605767BF20624A5100B881F0 /* UIColor+ChameleonPrivate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6057679D20624A5100B881F0 /* UIColor+ChameleonPrivate.m */; };
+		605767C020624A5100B881F0 /* UIImage+ChameleonPrivate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6057679F20624A5100B881F0 /* UIImage+ChameleonPrivate.m */; };
+		605767C120624A5100B881F0 /* UILabel+Chameleon.m in Sources */ = {isa = PBXBuildFile; fileRef = 605767A120624A5100B881F0 /* UILabel+Chameleon.m */; };
+		605767C220624A5100B881F0 /* UINavigationController+Chameleon.m in Sources */ = {isa = PBXBuildFile; fileRef = 605767A320624A5100B881F0 /* UINavigationController+Chameleon.m */; };
+		605767C320624A5100B881F0 /* UIView+ChameleonPrivate.m in Sources */ = {isa = PBXBuildFile; fileRef = 605767A520624A5100B881F0 /* UIView+ChameleonPrivate.m */; };
+		605767C420624A5100B881F0 /* UIViewController+Chameleon.m in Sources */ = {isa = PBXBuildFile; fileRef = 605767A720624A5100B881F0 /* UIViewController+Chameleon.m */; };
+		605767C520624A5100B881F0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 605767A920624A5100B881F0 /* InfoPlist.strings */; };
+		605767C720624A5100B881F0 /* Gradient.png in Resources */ = {isa = PBXBuildFile; fileRef = 605767AE20624A5100B881F0 /* Gradient.png */; };
+		605767C820624A5100B881F0 /* HighRise.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 605767B020624A5100B881F0 /* HighRise.scnassets */; };
+		605767C920624A5100B881F0 /* IBDesignableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 605767B120624A5100B881F0 /* IBDesignableView.swift */; };
+		605767CA20624A5100B881F0 /* images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 605767B220624A5100B881F0 /* images.xcassets */; };
+		605767CB20624A5100B881F0 /* LYHighRiseInfo.plist in Resources */ = {isa = PBXBuildFile; fileRef = 605767B320624A5100B881F0 /* LYHighRiseInfo.plist */; };
+		605767CC20624A5100B881F0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 605767B420624A5100B881F0 /* Main.storyboard */; };
+		605767CD20624A5100B881F0 /* SCNVector3 Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 605767B520624A5100B881F0 /* SCNVector3 Extensions.swift */; };
+		605767CE20624A5100B881F0 /* SoundManage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 605767B620624A5100B881F0 /* SoundManage.swift */; };
+		605767CF20624A5100B881F0 /* UIColor+Extenions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 605767B720624A5100B881F0 /* UIColor+Extenions.swift */; };
+		605767D020624A5100B881F0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 605767B820624A5100B881F0 /* ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		60576772206249F400B881F0 /* HighRise.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HighRise.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		60576775206249F400B881F0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		60576776206249F400B881F0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		60576778206249F400B881F0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		60576779206249F400B881F0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		6057677C206249F400B881F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6057677E206249F400B881F0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		60576781206249F400B881F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		60576783206249F400B881F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		60576784206249F400B881F0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6057678D20624A5100B881F0 /* Chameleon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Chameleon.h; sourceTree = "<group>"; };
+		6057678E20624A5100B881F0 /* Chameleon_.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Chameleon_.h; sourceTree = "<group>"; };
+		6057678F20624A5100B881F0 /* Chameleon_.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Chameleon_.m; sourceTree = "<group>"; };
+		6057679020624A5100B881F0 /* ChameleonConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChameleonConstants.h; sourceTree = "<group>"; };
+		6057679120624A5100B881F0 /* ChameleonConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChameleonConstants.m; sourceTree = "<group>"; };
+		6057679220624A5100B881F0 /* ChameleonEnums.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChameleonEnums.h; sourceTree = "<group>"; };
+		6057679320624A5100B881F0 /* ChameleonMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChameleonMacros.h; sourceTree = "<group>"; };
+		6057679420624A5100B881F0 /* NSArray+Chameleon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+Chameleon.h"; sourceTree = "<group>"; };
+		6057679520624A5100B881F0 /* NSArray+Chameleon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Chameleon.m"; sourceTree = "<group>"; };
+		6057679620624A5100B881F0 /* UIAppearance+Swift.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIAppearance+Swift.h"; sourceTree = "<group>"; };
+		6057679720624A5100B881F0 /* UIAppearance+Swift.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIAppearance+Swift.m"; sourceTree = "<group>"; };
+		6057679820624A5100B881F0 /* UIButton+Chameleon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+Chameleon.h"; sourceTree = "<group>"; };
+		6057679920624A5100B881F0 /* UIButton+Chameleon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Chameleon.m"; sourceTree = "<group>"; };
+		6057679A20624A5100B881F0 /* UIColor+Chameleon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Chameleon.h"; sourceTree = "<group>"; };
+		6057679B20624A5100B881F0 /* UIColor+Chameleon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Chameleon.m"; sourceTree = "<group>"; };
+		6057679C20624A5100B881F0 /* UIColor+ChameleonPrivate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+ChameleonPrivate.h"; sourceTree = "<group>"; };
+		6057679D20624A5100B881F0 /* UIColor+ChameleonPrivate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+ChameleonPrivate.m"; sourceTree = "<group>"; };
+		6057679E20624A5100B881F0 /* UIImage+ChameleonPrivate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ChameleonPrivate.h"; sourceTree = "<group>"; };
+		6057679F20624A5100B881F0 /* UIImage+ChameleonPrivate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ChameleonPrivate.m"; sourceTree = "<group>"; };
+		605767A020624A5100B881F0 /* UILabel+Chameleon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+Chameleon.h"; sourceTree = "<group>"; };
+		605767A120624A5100B881F0 /* UILabel+Chameleon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+Chameleon.m"; sourceTree = "<group>"; };
+		605767A220624A5100B881F0 /* UINavigationController+Chameleon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+Chameleon.h"; sourceTree = "<group>"; };
+		605767A320624A5100B881F0 /* UINavigationController+Chameleon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+Chameleon.m"; sourceTree = "<group>"; };
+		605767A420624A5100B881F0 /* UIView+ChameleonPrivate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+ChameleonPrivate.h"; sourceTree = "<group>"; };
+		605767A520624A5100B881F0 /* UIView+ChameleonPrivate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+ChameleonPrivate.m"; sourceTree = "<group>"; };
+		605767A620624A5100B881F0 /* UIViewController+Chameleon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Chameleon.h"; sourceTree = "<group>"; };
+		605767A720624A5100B881F0 /* UIViewController+Chameleon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Chameleon.m"; sourceTree = "<group>"; };
+		605767AA20624A5100B881F0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		605767AD20624A5100B881F0 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		605767AE20624A5100B881F0 /* Gradient.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Gradient.png; sourceTree = "<group>"; };
+		605767AF20624A5100B881F0 /* HighRise-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "HighRise-Bridging-Header.h"; sourceTree = "<group>"; };
+		605767B020624A5100B881F0 /* HighRise.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = HighRise.scnassets; sourceTree = "<group>"; };
+		605767B120624A5100B881F0 /* IBDesignableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IBDesignableView.swift; sourceTree = "<group>"; };
+		605767B220624A5100B881F0 /* images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = images.xcassets; sourceTree = "<group>"; };
+		605767B320624A5100B881F0 /* LYHighRiseInfo.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = LYHighRiseInfo.plist; sourceTree = "<group>"; };
+		605767B420624A5100B881F0 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		605767B520624A5100B881F0 /* SCNVector3 Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SCNVector3 Extensions.swift"; sourceTree = "<group>"; };
+		605767B620624A5100B881F0 /* SoundManage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SoundManage.swift; sourceTree = "<group>"; };
+		605767B720624A5100B881F0 /* UIColor+Extenions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Extenions.swift"; sourceTree = "<group>"; };
+		605767B820624A5100B881F0 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,17 +115,76 @@
 		60576774206249F400B881F0 /* HighRise */ = {
 			isa = PBXGroup;
 			children = (
+				6057678B20624A5100B881F0 /* LYHighRise */,
 				60576775206249F400B881F0 /* AppDelegate.h */,
 				60576776206249F400B881F0 /* AppDelegate.m */,
-				60576778206249F400B881F0 /* ViewController.h */,
-				60576779206249F400B881F0 /* ViewController.m */,
-				6057677B206249F400B881F0 /* Main.storyboard */,
 				6057677E206249F400B881F0 /* Assets.xcassets */,
 				60576780206249F400B881F0 /* LaunchScreen.storyboard */,
-				60576783206249F400B881F0 /* Info.plist */,
 				60576784206249F400B881F0 /* main.m */,
 			);
 			path = HighRise;
+			sourceTree = "<group>";
+		};
+		6057678B20624A5100B881F0 /* LYHighRise */ = {
+			isa = PBXGroup;
+			children = (
+				6057678C20624A5100B881F0 /* Chameleon */,
+				605767A820624A5100B881F0 /* Config */,
+				605767AE20624A5100B881F0 /* Gradient.png */,
+				605767AF20624A5100B881F0 /* HighRise-Bridging-Header.h */,
+				605767B020624A5100B881F0 /* HighRise.scnassets */,
+				605767B120624A5100B881F0 /* IBDesignableView.swift */,
+				605767B220624A5100B881F0 /* images.xcassets */,
+				605767B320624A5100B881F0 /* LYHighRiseInfo.plist */,
+				605767B420624A5100B881F0 /* Main.storyboard */,
+				605767B520624A5100B881F0 /* SCNVector3 Extensions.swift */,
+				605767B620624A5100B881F0 /* SoundManage.swift */,
+				605767B720624A5100B881F0 /* UIColor+Extenions.swift */,
+				605767B820624A5100B881F0 /* ViewController.swift */,
+			);
+			path = LYHighRise;
+			sourceTree = SOURCE_ROOT;
+		};
+		6057678C20624A5100B881F0 /* Chameleon */ = {
+			isa = PBXGroup;
+			children = (
+				6057678D20624A5100B881F0 /* Chameleon.h */,
+				6057678E20624A5100B881F0 /* Chameleon_.h */,
+				6057678F20624A5100B881F0 /* Chameleon_.m */,
+				6057679020624A5100B881F0 /* ChameleonConstants.h */,
+				6057679120624A5100B881F0 /* ChameleonConstants.m */,
+				6057679220624A5100B881F0 /* ChameleonEnums.h */,
+				6057679320624A5100B881F0 /* ChameleonMacros.h */,
+				6057679420624A5100B881F0 /* NSArray+Chameleon.h */,
+				6057679520624A5100B881F0 /* NSArray+Chameleon.m */,
+				6057679620624A5100B881F0 /* UIAppearance+Swift.h */,
+				6057679720624A5100B881F0 /* UIAppearance+Swift.m */,
+				6057679820624A5100B881F0 /* UIButton+Chameleon.h */,
+				6057679920624A5100B881F0 /* UIButton+Chameleon.m */,
+				6057679A20624A5100B881F0 /* UIColor+Chameleon.h */,
+				6057679B20624A5100B881F0 /* UIColor+Chameleon.m */,
+				6057679C20624A5100B881F0 /* UIColor+ChameleonPrivate.h */,
+				6057679D20624A5100B881F0 /* UIColor+ChameleonPrivate.m */,
+				6057679E20624A5100B881F0 /* UIImage+ChameleonPrivate.h */,
+				6057679F20624A5100B881F0 /* UIImage+ChameleonPrivate.m */,
+				605767A020624A5100B881F0 /* UILabel+Chameleon.h */,
+				605767A120624A5100B881F0 /* UILabel+Chameleon.m */,
+				605767A220624A5100B881F0 /* UINavigationController+Chameleon.h */,
+				605767A320624A5100B881F0 /* UINavigationController+Chameleon.m */,
+				605767A420624A5100B881F0 /* UIView+ChameleonPrivate.h */,
+				605767A520624A5100B881F0 /* UIView+ChameleonPrivate.m */,
+				605767A620624A5100B881F0 /* UIViewController+Chameleon.h */,
+				605767A720624A5100B881F0 /* UIViewController+Chameleon.m */,
+			);
+			path = Chameleon;
+			sourceTree = "<group>";
+		};
+		605767A820624A5100B881F0 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				605767A920624A5100B881F0 /* InfoPlist.strings */,
+			);
+			path = Config;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -102,7 +218,7 @@
 				TargetAttributes = {
 					60576771206249F400B881F0 = {
 						CreatedOnToolsVersion = 9.2;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 					};
 				};
 			};
@@ -113,6 +229,7 @@
 			knownRegions = (
 				en,
 				Base,
+				"zh-Hans",
 			);
 			mainGroup = 60576769206249F400B881F0;
 			productRefGroup = 60576773206249F400B881F0 /* Products */;
@@ -130,8 +247,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				60576782206249F400B881F0 /* LaunchScreen.storyboard in Resources */,
+				605767C720624A5100B881F0 /* Gradient.png in Resources */,
+				605767C520624A5100B881F0 /* InfoPlist.strings in Resources */,
+				605767CC20624A5100B881F0 /* Main.storyboard in Resources */,
+				605767CB20624A5100B881F0 /* LYHighRiseInfo.plist in Resources */,
+				605767CA20624A5100B881F0 /* images.xcassets in Resources */,
 				6057677F206249F400B881F0 /* Assets.xcassets in Resources */,
-				6057677D206249F400B881F0 /* Main.storyboard in Resources */,
+				605767C820624A5100B881F0 /* HighRise.scnassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -142,29 +264,46 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6057677A206249F400B881F0 /* ViewController.m in Sources */,
+				605767BA20624A5100B881F0 /* ChameleonConstants.m in Sources */,
+				605767CF20624A5100B881F0 /* UIColor+Extenions.swift in Sources */,
+				605767B920624A5100B881F0 /* Chameleon_.m in Sources */,
+				605767BE20624A5100B881F0 /* UIColor+Chameleon.m in Sources */,
+				605767C120624A5100B881F0 /* UILabel+Chameleon.m in Sources */,
 				60576785206249F400B881F0 /* main.m in Sources */,
+				605767C920624A5100B881F0 /* IBDesignableView.swift in Sources */,
+				605767CE20624A5100B881F0 /* SoundManage.swift in Sources */,
+				605767C020624A5100B881F0 /* UIImage+ChameleonPrivate.m in Sources */,
+				605767C220624A5100B881F0 /* UINavigationController+Chameleon.m in Sources */,
+				605767D020624A5100B881F0 /* ViewController.swift in Sources */,
 				60576777206249F400B881F0 /* AppDelegate.m in Sources */,
+				605767BD20624A5100B881F0 /* UIButton+Chameleon.m in Sources */,
+				605767CD20624A5100B881F0 /* SCNVector3 Extensions.swift in Sources */,
+				605767C320624A5100B881F0 /* UIView+ChameleonPrivate.m in Sources */,
+				605767BF20624A5100B881F0 /* UIColor+ChameleonPrivate.m in Sources */,
+				605767BB20624A5100B881F0 /* NSArray+Chameleon.m in Sources */,
+				605767BC20624A5100B881F0 /* UIAppearance+Swift.m in Sources */,
+				605767C420624A5100B881F0 /* UIViewController+Chameleon.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		6057677B206249F400B881F0 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				6057677C206249F400B881F0 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		60576780206249F400B881F0 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				60576781206249F400B881F0 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		605767A920624A5100B881F0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				605767AA20624A5100B881F0 /* en */,
+				605767AD20624A5100B881F0 /* zh-Hans */,
+			);
+			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -277,12 +416,18 @@
 		60576789206249F400B881F0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = HighRise/Info.plist;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon_143;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage_143;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = Z49DFGJ5J2;
+				INFOPLIST_FILE = "$(SRCROOT)/LYHighRise/LYHighRiseInfo.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.liyu.quotes.HighRise;
+				PRODUCT_BUNDLE_IDENTIFIER = com.highRise.sensefun;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "411544e2-cd64-4ce6-bf52-d6832b2aad72";
+				PROVISIONING_PROFILE_SPECIFIER = highRise_dev;
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/liyu/Desktop/HighRise/LYHighRise/HighRise-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -290,12 +435,19 @@
 		6057678A206249F400B881F0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = HighRise/Info.plist;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon_143;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage_143;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = Z49DFGJ5J2;
+				INFOPLIST_FILE = "$(SRCROOT)/LYHighRise/LYHighRiseInfo.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.liyu.quotes.HighRise;
+				PRODUCT_BUNDLE_IDENTIFIER = com.highRise.sensefun;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "88095fc9-aabd-4fd4-a6d9-7533828f2b70";
+				PROVISIONING_PROFILE_SPECIFIER = highRise_dis;
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/liyu/Desktop/HighRise/LYHighRise/HighRise-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
